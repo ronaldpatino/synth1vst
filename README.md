@@ -3,10 +3,19 @@ windows version of Ableton Live. Its WIP.
 
 Usage in windows, open a command promt, copy the als file you want to process to where synth1mac2pc.bat is and then:
 
+From Mac to Windows:  
 ```batch
-synth1mac2pc  filename.als
+synth1mac2pc /w filename.als
 ```
-This will generate a file named out.als
+
+From Windows to Mac:  
+```batch
+synth1mac2pc /m filename.als
+```
+This will generate a file named 
+```batch
+out.als
+```
 
 What I am doing is replacing 1450726194 with 1395742323 in:
 
