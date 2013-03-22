@@ -5,12 +5,12 @@ Usage in windows, open a command promt, copy the als file you want to process to
 
 From Mac to Windows:  
 ```batch
-synth1mac2pc /w filename.als
+synth1mac2pc.bat /w filename.als
 ```
 
 From Windows to Mac:  
 ```batch
-synth1mac2pc /m filename.als
+synth1mac2pc.bat /m filename.als
 ```
 This will generate a file named 
 ```batch
